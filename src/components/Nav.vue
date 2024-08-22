@@ -16,7 +16,7 @@ defineProps({
         </section>
 
         <section>
-            <img src="./../assets/logo.svg" alt="logo">
+            <img src="./../../public/boolean.ico" alt="logo">
             <ul>
                 <li>
                     <a href="/">
