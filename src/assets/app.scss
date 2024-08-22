@@ -1,6 +1,11 @@
 @import './variants.scss';
 
 body {
-    background-color: darkcyan;
-    color: lightgreen;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    a {
+        color: var(--third-color);
+        text-decoration: none;
+    }
 }
