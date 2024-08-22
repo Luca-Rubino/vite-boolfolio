@@ -1,22 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Nav from './components/Nav.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <header>
-    <HelloWorld msg="Testo"/>
-  </header>
-
-  <main>
-    <TheWelcome/>
-  </main>
-
-  <footer>
-
-  </footer>
+  <Nav props="nav"/>
+  <Main props="main"/>
+  <Footer props="footer"/> 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>
