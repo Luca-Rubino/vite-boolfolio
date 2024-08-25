@@ -1,16 +1,8 @@
-:root {
-    --primary-color: darkcyan;
-    --secondary-color: lightgreen;
-    --third-color: lightsalmon;
-    --my-bg-black: black;
-    --my-bg-gold: rgb(224, 169, 15);
-    --my-tx-white: white;
-    --my-tx-green: rgb(12, 141, 12);
-    --my-tx-purple: rgb(124, 14, 124);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+$Primary-color: darkcyan;
+$Secondary-color: lightgreen;
+$Third-color: lightsalmon;
+$My-bg-black: black;
+$My-bg-gold: rgb(224, 169, 15);
+$My-tx-white: white;
+$My-tx-green: rgb(12, 141, 12);
+$My-tx-purple: rgb(124, 14, 124);

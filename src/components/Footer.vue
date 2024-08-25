@@ -1,4 +1,6 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
+// ...
 
 defineProps({
     props: {
@@ -6,7 +8,6 @@ defineProps({
         required: true
     }
 })
-
 </script>
 
 <template>
@@ -30,9 +31,11 @@ defineProps({
 </template>
 
 <style lang="scss" scoped>
+@import "./../assets/app.scss";
+
 footer {
-    background-color: var(--my-bg-black);
-    color: var(--my-tx-white);
+    background-color: $My-bg-black;
+    color: $My-tx-white;
     padding: 1rem;
 
     h2 {
@@ -47,7 +50,7 @@ footer {
             padding: .2rem;
 
             a {
-                color: var(--my-tx-white);
+                color: $My-tx-white;
             }
         }
     }

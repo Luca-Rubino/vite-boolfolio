@@ -1,11 +1,17 @@
 @import './variants.scss';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: $Primary-color;
+    color: $Secondary-color;
 
     a {
-        color: var(--third-color);
+        color: $Third-color;
         text-decoration: none;
     }
 }

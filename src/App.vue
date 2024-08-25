@@ -4,6 +4,17 @@ import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 </script>
 
+<script>
+export default {
+  name: "vite boolfolio",
+  components: {
+    Nav,
+    Main,
+    Footer
+  }
+}
+</script>
+
 <template>
   <Nav props="nav"/>
   <Main props="main"/>

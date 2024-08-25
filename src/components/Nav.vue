@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 defineProps({
     props: {
@@ -16,7 +17,10 @@ defineProps({
         </section>
 
         <section>
-            <img src="./../../public/boolean.ico" alt="logo">
+            <a href="/">
+                <img src="./../../public/boolean.ico" alt="logo">
+            </a>
+
             <ul>
                 <li>
                     <a href="/">
@@ -30,6 +34,8 @@ defineProps({
 </template>
 
 <style lang="scss" scoped>
+@import "./../assets/app.scss";
+
 nav {
     background-color: white;
     color: black;
@@ -58,7 +64,7 @@ nav {
     }
 
     a {
-        color: purple;
+        color: $My-tx-purple;
         text-decoration: underline;
     }
 
