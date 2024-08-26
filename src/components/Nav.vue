@@ -8,8 +8,31 @@ defineProps({
 })
 </script>
 
+<script>
+    export default{
+        data() {
+            return {
+                navLinkNames: [
+                    {
+                        label: "Home",
+                        name: "home"
+                    },
+                    {
+                        label: "Project",
+                        name: "project"
+                    },
+                    {
+                        label: "About",
+                        name: "about"
+                    },
+                ]
+            }
+        }
+    }
+</script>
+
 <template>
-    <nav>
+    <nav class="container">
         <section>
             <h1>
                 {{ props }}
@@ -22,10 +45,10 @@ defineProps({
             </a>
 
             <ul>
-                <li>
-                    <a href="/">
-                        link
-                    </a>
+                <li v-for="navItem in navLinkNames">
+                    <RouterLink :to="{ name: navItem.name }">
+                        {{ navItem.label }}
+                    </RouterLink>
                 </li>
             </ul>
         </section>
@@ -72,6 +95,12 @@ nav {
         display: flex;
         align-items: center;
         justify-content: flex-start;
+
+        ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
     }
 }
 </style>

@@ -10,12 +10,15 @@ export default{
         getProject() {
             axios.get('http://127.0.0.1:8000/laravel', {
                 params: {
-                    nome: '',
+                    currentPage: 1,
+                    totalPages: 1
                 }
             })
                 .then((response) => {
                     console.log(response.data.results.data);
-                    this.projects = response.data.results.data;
+                    this.projects.push(...response.data.results.data);
+                    this.currentPage = page;
+                    console.log(response.data.results);
                 })
                 .catch(function (error) {
                     console.log(error);
