@@ -45,7 +45,7 @@ export default {
                 {{ project.id }}
             </p>
             <p>
-                <RouterLink class="lenteSearch" :to="{name: '', params: {id: project.id}}">
+                <RouterLink class="lenteSearch" :to="{name: 'project', params: project.id}">
                     {{ project.nome }}
                 </RouterLink>
             </p>
