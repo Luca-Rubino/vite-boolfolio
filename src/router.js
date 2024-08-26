@@ -11,18 +11,18 @@ const router = createRouter({
         {
             path: '/',
             name: 'home',
-            component: AppHome
+            component: AppProject
         },
         {
             path: '/project',
             name: 'project',
             component: AppProject
         },
-        // {
-        //     path: '/about',
-        //     name: 'about',
-        //     component: AppAbout
-        // },
+        {
+            path: '/about',
+            name: 'about',
+            component: AppHome
+        },
     ]
 });
 export { router };

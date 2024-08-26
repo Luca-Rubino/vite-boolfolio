@@ -1,14 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
     import Icons from './Icons.vue'
+    import ProjectsCard from './ProjectsCard.vue';
 </script>
 
 <template>
         <article>
-                <h3>Title_article</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nisi, <a href="/">link</a> ipsa iste porro eius, explicabo cumque, neque doloremque ullam vitae nulla blanditiis amet voluptas nihil? Magnam cum veritatis ipsa. Dolor. Sed quae quibusdam quos tempore aliquam mollitia, at illum, <a href="/">link</a> deleniti consectetur assumenda odio cupiditate minima, iste ipsum recusandae harum magni officia reiciendis alias nulla doloribus aliquid impedit itaque numquam. Corporis. Dignissimos recusandae mollitia voluptates obcaecati, aspernatur <a href="/">link</a> quasi natus sunt minima accusamus! A velit nobis, est eius culpa totam? Vitae dicta porro iste id cupiditate nihil adipisci aliquid explicabo deserunt facere!
-                </p>
+                <ProjectsCard/>
                 <Icons/>
         </article>
 </template>
