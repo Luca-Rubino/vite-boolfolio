@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import Card from './Card.vue'
-import Projects from './Projects.vue'
+import ProjectsCard from './ProjectsCard.vue'
 
 defineProps({
     props: {
@@ -19,7 +19,7 @@ defineProps({
         </section>
         
         <section>
-            <projects/>
+            <ProjectsCard/>
         </section>
 
     </main>
