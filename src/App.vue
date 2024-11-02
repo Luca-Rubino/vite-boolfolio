@@ -1,26 +1,6 @@
-<script setup>
-import Nav from './components/Nav.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
-</script>
-
-<script>
-export default {
-  name: "vite boolfolio",
-  components: {
-    Nav,
-    Main,
-    Footer
-  }
-}
-</script>
-
 <template>
-  <Nav props="nav"/>
-  <Main props="main"/>
-  <Footer props="footer"/> 
+  <h1>
+    Home
+  </h1>
+  <p>Lorem ipsum dolor <a href="/">sit amet</a> consectetur adipisicing.</p>
 </template>
-
-<style lang="scss">
-
-</style>

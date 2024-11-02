@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-import Card from './Card.vue'
+// import Card from './Card.vue'
 
 defineProps({
     props: {
@@ -14,7 +14,8 @@ defineProps({
     <main>
         <section>
             <h2>{{ props }}</h2>
-            <card/>  
+            <p>lorem*300</p>
+            <!-- <card/>   -->
         </section>
     </main>
 </template>

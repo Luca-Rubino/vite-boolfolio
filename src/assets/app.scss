@@ -1,17 +1,12 @@
 @import './variants.scss';
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'bootstrap/scss/bootstrap';
 
 body {
-    background-color: $Primary-color;
-    color: $Secondary-color;
+    background-color: $my-primary-bg-color;
+    color: $my-primary-text-color;
 
     a {
-        color: $My-tx-purple;
+        color: $my-link-text-color;
         text-decoration: none;
     }
 }

@@ -1,8 +1,11 @@
-$Primary-color: darkcyan;
-$Secondary-color: lightgreen;
-$Third-color: lightsalmon;
-$My-bg-black: black;
-$My-bg-gold: rgb(224, 169, 15);
-$My-tx-white: white;
-$My-tx-green: rgb(12, 141, 12);
-$My-tx-purple: rgb(124, 14, 124);
+$my-primary-bg-color: #fff;
+$my-primary-text-color: #000;
+$my-link-text-color: purple;
+
+// CLASS
+
+.myCustomCenterBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
