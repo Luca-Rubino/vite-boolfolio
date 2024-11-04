@@ -32,11 +32,11 @@ import Logo from './icons/Favicon.vue';
       </article>
 
       <article>
-        <ul>
+        <ul class="d-flex align-items-center">
           <li>
             <Logo alt="Image-logo" />
           </li>
-          <li>
+          <li class="">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tempora <a href="/">aliquid provident</a>
               recusandae odit earum quia maiores expedita, eligendi ad <a href="/">dolorum odio</a> debitis sequi
@@ -85,7 +85,7 @@ import Logo from './icons/Favicon.vue';
 footer {
   background-color: black;
   color: white;
-  padding: 1rem .5rem .3rem;
+  padding: 1rem 3rem .3rem;
 
   section {
     display: flex;
@@ -130,12 +130,8 @@ footer {
 
     article:nth-child(2) {
       ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
         li {
-          display: flex;
+          align-items: center;
 
           svg {
             padding: .2rem;
@@ -152,7 +148,7 @@ footer {
 
     article:nth-child(3) {
       ul {
-        padding-left: 333px;
+        padding-left: 26vw;
       }
     }
   }
