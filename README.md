@@ -1,7 +1,7 @@
 # Vite-Boolfolio
 
 ## Introduzione
-<p>Questa applicazione web serve come portfolio digitale per mostrare il mio curriculum e i miei progetti. Fornisce un'interfaccia interattiva e facile da usare dove i visitatori possono conoscere meglio il mio background professionale, le mie competenze e i progetti a cui ho lavorato.</p>
+Questa applicazione web serve come portfolio digitale per mostrare il mio curriculum e i miei progetti. Fornisce un'interfaccia interattiva e facile da usare dove i visitatori possono conoscere meglio il mio background professionale, le mie competenze e i progetti a cui ho lavorato.
 
 ## Indice
 
@@ -30,31 +30,31 @@
 Per configurare il progetto localmente, segui questi passaggi
 
 1. Clona il repository
-```
-Copia codice
 
+Copia codice
+```
 git clone https://github.com/Luca-Rubino/vite-boolfolio
 ```
 
 2. Naviga nella directory del progetto:
-```
-Copia codice
 
+Copia codice
+```
 cd vite-boolfolio
 ```
 
 3. Installa le dipendenze:
-```
-Copia codice
 
+Copia codice
+```
 npm install
 ```
 
 ## Utilizzo
 Dopo aver installato le dipendenze, puoi avviare il server di sviluppo con il seguente comando:
-```
-Copia codice
 
+Copia codice
+```
 npm run dev
 ```
 
@@ -78,4 +78,4 @@ Per ulteriori dettagli sull'utilizzo delle librerie e delle tecnologie incluse, 
 - Documentazione [Bootstrap](https://getbootstrap.com/)
 
 ## Realizzato da
-- Luca Rubino
+**[Luca Rubino](https://github.com/Luca-Rubino)**
