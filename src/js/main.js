@@ -1,15 +1,15 @@
+// rotte
+import router from './route'
+
 // scss
-import './assets/index.scss'
+import '../assets/index.scss'
 
 // bootstrap
 import * as Popper from "@popperjs/core"
 
 // Vue data
-import App from './views/App.vue'
+import App from '../views/App.vue'
 import { createApp } from 'vue'
-
-// end
-createApp(App, Popper).mount('#app')
 
 // favicon color
 function setFaviconColorFilter(colorFilter) {
@@ -33,3 +33,5 @@ function setFaviconColorFilter(colorFilter) {
 
 // Esempio di utilizzo: applica un filtro colore rosso
 window.onload = () => setFaviconColorFilter('whitesmoke');
+
+createApp(App, Popper).use(router).mount('#app')

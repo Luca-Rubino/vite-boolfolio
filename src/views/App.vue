@@ -1,13 +1,17 @@
 <script setup>
 import Nav from '../components/Nav.vue'
-import Main from '../components/TextBase.vue'
 import Footer from '../components/Footer.vue'
+</script>
 
+<script>
+export default {
+  name: 'App',
+};
 </script>
 
 <template>
   <Nav class="navbar bg-primary" data-bs-theme="dark"/>
-  <Main/>
+  <router-view></router-view>
   <Footer/>
 </template>
 

@@ -16,8 +16,8 @@ import Logo from './icons/Favicon.vue';
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/">chi sono</a></li>
-              <li><a class="dropdown-item" href="/">portfolio</a></li>
+              <li><a class="dropdown-item" href="/ChiSono">chi sono</a></li>
+              <li><a class="dropdown-item" href="/Portfolio">portfolio</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
