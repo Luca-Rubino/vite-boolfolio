@@ -1,6 +1,6 @@
 <script setup>
 import Nav from '../components/Nav.vue'
-import Main from '../components/Main.vue'
+import Main from '../components/TextBase.vue'
 import Footer from '../components/Footer.vue'
 
 </script>
