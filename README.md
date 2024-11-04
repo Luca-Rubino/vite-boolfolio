@@ -64,8 +64,8 @@ Questo comando avvierà l'applicazione in modalità sviluppo. Apri http://localh
 Per personalizzare l'applicazione con i tuoi dati, modifica i file nella directory src secondo le tue necessità. Puoi aggiornare le informazioni del curriculum e aggiungere nuovi progetti.
 
 ## Dipendenze
-- React: Libreria JavaScript per costruire interfacce utente.
-- React Router: Libreria per la gestione delle rotte in un'applicazione React.
+- Vue: Libreria JavaScript per costruire interfacce utente.
+- Vue Router: Libreria per la gestione delle rotte in un'applicazione React.
 - Axios: Client HTTP per fare richieste HTTP.
 - Bootstrap: Framework CSS per lo sviluppo di interfacce responsive.
 
