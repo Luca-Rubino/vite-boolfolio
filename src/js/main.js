@@ -1,15 +1,15 @@
-// rotte
-import router from './route'
+// Vue data
+import { createApp } from 'vue'
+import App from '../views/App.vue'
 
 // scss
-import '../assets/index.scss'
+import '../assets/style.scss'
+
+// rotte
+import router from './router'
 
 // bootstrap
 import * as Popper from "@popperjs/core"
-
-// Vue data
-import App from '../views/App.vue'
-import { createApp } from 'vue'
 
 // favicon color
 function setFaviconColorFilter(colorFilter) {

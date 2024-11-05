@@ -1,5 +1,4 @@
-import { createMemoryHistory, createRouter } from 'vue-router'
-
+import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/page/Home.vue'
 import ChiSono from '../views/page/ChiSono.vue'
 import Portfolio from '../views/page/Portfolio.vue'
@@ -10,7 +9,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/ChiSono',
+    path: '/Chi_Sono',
     component: ChiSono
   },
   {
@@ -20,7 +19,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHistory(),
   routes,
 })
 

@@ -1,6 +1,7 @@
 <script setup>
 import Logo from './icons/Favicon.vue';
 </script>
+
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <section class="container-fluid">
@@ -16,7 +17,7 @@ import Logo from './icons/Favicon.vue';
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/ChiSono">chi sono</a></li>
+              <li><a class="dropdown-item" href="/Chi_Sono">chi sono</a></li>
               <li><a class="dropdown-item" href="/Portfolio">portfolio</a></li>
               <li>
                 <hr class="dropdown-divider">
