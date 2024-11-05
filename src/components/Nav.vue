@@ -17,7 +17,7 @@ import Logo from './icons/Favicon.vue';
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/Chi_Sono">chi sono</a></li>
+              <li><a class="dropdown-item" href="/ChiSono">chi sono</a></li>
               <li><a class="dropdown-item" href="/Portfolio">portfolio</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -42,9 +42,9 @@ import Logo from './icons/Favicon.vue';
 
 <style lang="scss" scoped>
 nav {
-  padding: .8rem .5rem;
-
   section {
+    padding: 0 3rem 0 1.8rem;
+
     article {
       ul {
         align-items: center;
@@ -52,10 +52,9 @@ nav {
         li {
           a {
             text-transform: capitalize;
-
             svg {
               width: 6vw;
-              padding: .3rem;
+              padding: 0;
               filter: invert(.8);
             }
           }
