@@ -32,6 +32,6 @@ function setFaviconColorFilter(colorFilter) {
 }
 
 // Esempio di utilizzo: applica un filtro colore rosso
-window.onload = () => setFaviconColorFilter('whitesmoke');
+window.onload = () => setFaviconColorFilter('chocolate');
 
 createApp(App, Popper).use(router).mount('#app')

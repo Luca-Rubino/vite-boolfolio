@@ -85,10 +85,10 @@ import Logo from './icons/Favicon.vue';
 footer {
   background-color: black;
   color: white;
-  padding: 1rem 3rem .3rem;
 
   section {
     display: flex;
+    padding: 2rem 4rem 0 1.8rem;
 
     article {
       width: calc(100vw/3);
@@ -108,11 +108,9 @@ footer {
     article:nth-child(1),
     article:nth-child(3) {
       ul{
-        margin: 0;
-        padding: 2rem 0 0;
+        padding: 1.5rem 0 0;
 
         li {
-          padding: 0 .3rem;
           text-transform: capitalize;
 
           a {

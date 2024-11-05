@@ -1,12 +1,7 @@
-<script setup>
-import TextBase from '../../components/TextBase.vue';
-</script>
-
 <template>
   <h1>
-    Chi Sono
+    curriculumVitee
   </h1>
-  <TextBase/>
 </template>
 
 <style lang="scss" scoped>
