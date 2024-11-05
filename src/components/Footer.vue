@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import Logo from './icons/Favicon.vue';
 </script>
@@ -88,7 +89,7 @@ footer {
 
   section {
     display: flex;
-    padding: 2rem 4rem 0 1.8rem;
+    padding: 2rem 4rem 0 3.1rem;
 
     article {
       width: calc(100vw/3);
@@ -111,6 +112,7 @@ footer {
         padding: 1.5rem 0 0;
 
         li {
+          padding-left: .8rem;
           text-transform: capitalize;
 
           a {

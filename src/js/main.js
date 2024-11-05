@@ -1,15 +1,15 @@
 // Vue data
-import { createApp } from 'vue'
-import App from '../views/App.vue'
+import { createApp } from 'vue';
+import App from '../views/App.vue';
 
 // scss
-import '../assets/style.scss'
+import '../assets/style.scss';
 
 // rotte
-import router from './router'
+import router from './router';
 
 // bootstrap
-import * as Popper from "@popperjs/core"
+import * as Popper from '@popperjs/core';
 
 // favicon color
 function setFaviconColorFilter(colorFilter) {
@@ -31,7 +31,8 @@ function setFaviconColorFilter(colorFilter) {
   };
 }
 
-// Esempio di utilizzo: applica un filtro colore rosso
+// Imposta il colore
 window.onload = () => setFaviconColorFilter('chocolate');
 
-createApp(App, Popper).use(router).mount('#app')
+// Crea l'app Vue
+createApp(App, Popper).use(router).mount('#app');
