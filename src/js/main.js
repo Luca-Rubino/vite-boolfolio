@@ -34,5 +34,5 @@ function setFaviconColorFilter(colorFilter) {
 // Imposta il colore
 window.onload = () => setFaviconColorFilter('chocolate');
 
-// Crea l'app Vue
+// Vue end
 createApp(App, Popper).use(router).mount('#app');

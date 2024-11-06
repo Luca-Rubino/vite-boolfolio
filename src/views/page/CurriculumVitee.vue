@@ -1,6 +1,6 @@
 <template>
   <h1>
-    curriculumVitee
+    curriculumVitae
   </h1>
 </template>
 

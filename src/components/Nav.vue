@@ -4,7 +4,7 @@ import Logo from './icons/Favicon.vue';
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar position-fixed w-100 navbar-expand-lg bg-body-tertiary">
     <section class="container-fluid">
       <article class="collapse navbar-collapse" id="navbarSupportedContent">
         <a href="/"><Logo class="my-logo-nav" alt='logo-site'/></a>
@@ -54,6 +54,7 @@ import Logo from './icons/Favicon.vue';
 <style lang="scss" scoped>
 nav {
   font-size: 1.2vw;
+
   section {
     padding: 0 4rem 0 1.8rem;
 
@@ -83,7 +84,7 @@ nav {
 .my-logo-nav {
   width: 135px;
   padding: .2rem;
-  fill: chocolate;
+  fill: black;
 }
 
 </style>

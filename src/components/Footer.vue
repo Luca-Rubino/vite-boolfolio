@@ -35,9 +35,10 @@ import Logo from './icons/Favicon.vue';
       <article>
         <ul class="d-flex align-items-center">
           <li>
-            <Logo alt="Image-logo" />
+            <Logo class="my-logo-footer" alt="Image-logo" />
           </li>
-          <li class="">
+
+          <li>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tempora <a href="/">aliquid provident</a>
               recusandae odit earum quia maiores expedita, eligendi ad <a href="/">dolorum odio</a> debitis sequi
@@ -75,7 +76,7 @@ import Logo from './icons/Favicon.vue';
     </section>
 
     <section>
-      <p>&copy;Copyright</p>
+      <p>&copy;Creato da <span>luca rubino</span></p>
     </section>
   </footer>
 </template>
@@ -133,12 +134,6 @@ footer {
         li {
           align-items: center;
 
-          svg {
-            padding: .2rem;
-            width: 250px;
-            fill: chocolate;
-          }
-
           p {
             padding: .3rem;
           }
@@ -153,4 +148,19 @@ footer {
     }
   }
 }
+
+section:nth-child(2) {
+  p {
+    span {
+      text-transform: capitalize;
+      font-style: italic;
+    }
+  }
+}
+// class
+.my-logo-footer {
+    padding: .2rem;
+    width: 250px;
+    fill: whitesmoke;
+  }
 </style>
